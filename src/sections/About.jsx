@@ -18,7 +18,7 @@ const About = () => {
   return (
     <section className="c-space my-20 relative top-72" id="about">
       <div className="grid xl:grid-cols-3 xl:grid-rows-6 md:grid-cols-2 grid-cols-1 gap-5 h-full">
-        <div className="col-span-1 xl:row-span-3">
+        <div className="col-span-1 xl:row-span-2">
           <div className="grid-container">
             <img
               src="assets/grid1.png"
@@ -39,7 +39,7 @@ const About = () => {
           </div>
         </div>
 
-        <div className="col-span-1 xl:row-span-3">
+        <div className="col-span-1 xl:row-span-2">
           <div className="grid-container">
             <div className="rounded-3xl w-full sm:h-[326px] h-fit flex justify-center items-center">
               <Globe
@@ -73,7 +73,7 @@ const About = () => {
             </div>
           </div>
         </div>
-        <div className="col-span-1 xl:row-span-4">
+        <div className="col-span-1 xl:row-span-3">
           <div className="grid-container">
             <img
               src="assets/grid2.png"
@@ -83,14 +83,41 @@ const About = () => {
 
             <div>
               <p className="grid-headtext">Tech Stack</p>
+              <p className="grid-headtext">Web development </p>
               <p className="grid-subtext">
-                I specialize in a variety of languages, frameworks, and tools
-                that allow me to build robust and scalable applications
+                HTML5, Javascript (ES6), Typescript
+              </p>
+              <p className="grid-headtext mt-5">Styling frameworks </p>
+              <p className="grid-subtext">
+                CSS3, SASS, Bootstrap5, Infima, Tailwind CSS, Material UI,
+                Styled Components, shadcn/ui
+              </p>
+              <p className="grid-headtext mt-5">Frameworks </p>
+              <p className="grid-subtext">
+                React.js, Next.js, Angular, Svelte, SvelteKit, Node.js
+              </p>
+              <p className="grid-headtext mt-5">Libraries </p>
+              <p className="grid-subtext">Redux, Express.js, Mongoose, ngRx</p>
+              <p className="grid-headtext mt-5">Databases </p>
+              <p className="grid-subtext">
+                MongoDB, Firebase, SQL, Hygraph, Supabase
+              </p>
+              <p className="grid-headtext mt-5">Tools/ IDE </p>
+              <p className="grid-subtext">
+                VS code, NPM, Git, Github, Postman API, MongoDB Atlas,
+                Excalidraw, Netlify
+              </p>
+              <p className="grid-headtext mt-5">Hands-on experience </p>
+              <p className="grid-subtext">
+                - OAuth, Clerk, Strapi, Stripe, ASP.NET Core
+              </p>
+              <p className="grid-subtext">
+                English (fluent), German (elementary)
               </p>
             </div>
           </div>
         </div>
-        <div className="xl:col-span-2 xl:row-span-3">
+        <div className="xl:col-span-2 xl:row-span-2">
           <div className="grid-container">
             <img
               src="assets/grid3.png"
@@ -131,6 +158,14 @@ const About = () => {
               </div>
               <p className="lg:text-2xl md:text-xl font-medium text-gray_gradient text-white">
                 Chennai, Tamil Nadu,India
+              </p>
+              <p className="lg:text-lg md:text-xl font-medium text-gray_gradient text-white">
+                https://github.com/code-gritt
+                https://willowy-sunshine-70af57.netlify.app
+                https://www.linkedin.com/in/gokul-va-14a304a5/
+              </p>
+              <p className="lg:text-lg md:text-xl font-medium text-gray_gradient text-white">
+                (+91) 9442261178
               </p>
             </div>
           </div>

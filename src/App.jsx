@@ -1,6 +1,7 @@
 import Hero from "./sections/Hero";
 import Navbar from "./sections/Navbar";
 import About from "./sections/About.jsx";
+import Projects from "./sections/Projects.jsx";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
         <Navbar />
         <Hero />
         <About />
+        <Projects />
       </main>
     </>
   );
