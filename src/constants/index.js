@@ -24,45 +24,42 @@ export const navLinks = [
 export const clientReviews = [
   {
     id: 1,
-    name: "Emily Johnson",
-    position: "Marketing Director at GreenLeaf",
+    name: "Fajar Ramadan",
+    position: "Software Engineer at HReasily",
     img: "assets/review1.png",
     review:
-      "Working with Adrian was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.",
+      "A nice person with a strong work ethic possesses dedication to their job. Glad to know you, Gokul.",
   },
   {
     id: 2,
-    name: "Mark Rogers",
-    position: "Founder of TechGear Shop",
+    name: "Kevin Purwito",
+    position: "Senior Software Engineer at HReasily",
     img: "assets/review2.png",
     review:
-      "Adrian’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional! Fantastic work.",
+      "A good personality and dedicated developer. Hopeful to see your continued growth.",
   },
   {
     id: 3,
-    name: "John Dohsas",
-    position: "Project Manager at UrbanTech ",
+    name: "Karthikeyan Arivalagan",
+    position: "Head Of Engineering at HReasily & Yuvo",
     img: "assets/review3.png",
     review:
-      "I can’t say enough good things about Adrian. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.",
+      "Gokul is a dedicated and enthusiastic professional who consistently demonstrates a strong commitment to expanding his skillset and adapting to new technologies. His positive attitude, combined with a genuine passion for learning, makes him a valuable asset to any team. I have no doubt that he will continue to excel in his career as he embraces new opportunities and challenges.",
   },
   {
     id: 4,
-    name: "Ether Smith",
-    position: "CEO of BrightStar Enterprises",
+    name: "Adarsh Kumar Shaw",
+    position: "UI/ UX designer at Saaragh",
     img: "assets/review4.png",
     review:
-      "Adrian was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend backend dev are top-notch.",
+      "I had the pleasure of working with Gokul at Saaragh. He is highly skilled and dedicated frontend developer. His ability to consistently deliver clean, efficient, and user-friendly code. His strong communication and collaboration skills, making them a valuable team member.",
   },
 ];
 
 export const myProjects = [
   {
-    title: "Podcastr - AI Podcast Platform",
-    desc: "Podcastr is a revolutionary Software-as-a-Service platform that transforms the way podcasts are created. With advanced AI-powered features like text-to-multiple-voices functionality, it allows creators to generate diverse voiceovers from a single text input.",
-    subdesc:
-      "Built as a unique Software-as-a-Service app with Next.js 14, Tailwind CSS, TypeScript, Framer Motion and Convex, Podcastr is designed for optimal performance and scalability.",
-    href: "https://www.youtube.com/watch?v=zfAb95tJvZQ",
+    title: "Car Catalogue App",
+    desc: "A simple car catalogue app where it show cases different car models and design fetching the data from third party car API from the server side, when the user wants to search for a particular model of a car .This app uses Next.js for its client side & server side designing. Tailwind CSS for its styling.",
     texture: "/textures/project/project1.mp4",
     logo: "/assets/project-logo1.png",
     logoStyle: {
@@ -95,11 +92,8 @@ export const myProjects = [
     ],
   },
   {
-    title: "LiveDoc - Real-Time Google Docs Clone",
-    desc: "LiveDoc is a powerful collaborative app that elevates the capabilities of real-time document editing. As an enhanced version of Google Docs, It supports millions of collaborators simultaneously, ensuring that every change is captured instantly and accurately.",
-    subdesc:
-      "With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.",
-    href: "https://www.youtube.com/watch?v=y5vE8y_f_OM",
+    title: "Gemini App",
+    desc: "A sample google gemini app created with using react js for frontend frameword, css for styling and gemini api coming from backend creating a full stack AI application like chat GPT offering the feature to search any information on the internet.",
     texture: "/textures/project/project2.mp4",
     logo: "/assets/project-logo2.png",
     logoStyle: {
@@ -132,11 +126,8 @@ export const myProjects = [
     ],
   },
   {
-    title: "CarePulse - Health Management System",
-    desc: "An innovative healthcare platform designed to streamline essential medical processes. It simplifies patient registration, appointment scheduling, and medical record management, providing a seamless experience for both healthcare providers and patients.",
-    subdesc:
-      "With a focus on efficiency, CarePulse integrantes complex forms and SMS notifications, by using Next.js, Appwrite, Twillio and Sentry that enhance operational workflows.",
-    href: "https://www.youtube.com/watch?v=lEflo_sc82g",
+    title: "MERN Ecommerce App",
+    desc: "An Ecommerce app created using React 18 and CSS for frontend UI and Node.js, express.js, MongoDB for its backend architecture.",
     texture: "/textures/project/project3.mp4",
     logo: "/assets/project-logo3.png",
     logoStyle: {
@@ -171,11 +162,8 @@ export const myProjects = [
     ],
   },
   {
-    title: "Horizon - Online Banking Platform",
-    desc: "Horizon is a comprehensive online banking platform that offers users a centralized finance management dashboard. It allows users to connect multiple bank accounts, monitor real-time transactions, and seamlessly transfer money to other users.",
-    subdesc:
-      "Built with Next.js 14 Appwrite, Dwolla and Plaid, Horizon ensures a smooth and secure banking experience, tailored to meet the needs of modern consumers.",
-    href: "https://www.youtube.com/watch?v=PuOVqP_cjkE",
+    title: "Home-Service-Appointment-App-Next.js-Strapi",
+    desc: "A sample service app created using Next.js as it's framework with tailwind CSS as it's styling framework and Hygraph as it's CMS database.",
     texture: "/textures/project/project4.mp4",
     logo: "/assets/project-logo4.png",
     logoStyle: {
@@ -208,11 +196,8 @@ export const myProjects = [
     ],
   },
   {
-    title: "Imaginify - AI Photo Manipulation App",
-    desc: "Imaginify is a groundbreaking Software-as-a-Service application that empowers users to create stunning photo manipulations using AI technology. With features like AI-driven image editing, a payments system, and a credits-based model.",
-    subdesc:
-      "Built with Next.js 14, Cloudinary AI, Clerk, and Stripe, Imaginify combines cutting-edge technology with a user-centric approach. It can be turned into a side income or even a full-fledged business.",
-    href: "https://www.youtube.com/watch?v=Ahwoks_dawU",
+    title: "React Admin Dashboard",
+    desc: "A simple React Admin Dashboard is created with react, css, tailwind added cool new features.",
     texture: "/textures/project/project5.mp4",
     logo: "/assets/project-logo5.png",
     logoStyle: {
@@ -253,62 +238,112 @@ export const calculateSizes = (isSmall, isMobile, isTablet) => {
     cubePosition: isSmall
       ? [4, -5, 0]
       : isMobile
-      ? [5, -5, 0]
-      : isTablet
-      ? [5, -5, 0]
-      : [9, -5.5, 0],
+        ? [5, -5, 0]
+        : isTablet
+          ? [5, -5, 0]
+          : [9, -5.5, 0],
     reactLogoPosition: isSmall
       ? [3, 4, 0]
       : isMobile
-      ? [5, 4, 0]
-      : isTablet
-      ? [5, 4, 0]
-      : [12, 3, 0],
+        ? [5, 4, 0]
+        : isTablet
+          ? [5, 4, 0]
+          : [12, 3, 0],
     ringPosition: isSmall
       ? [-5, 7, 0]
       : isMobile
-      ? [-10, 10, 0]
-      : isTablet
-      ? [-12, 10, 0]
-      : [-24, 10, 0],
+        ? [-10, 10, 0]
+        : isTablet
+          ? [-12, 10, 0]
+          : [-24, 10, 0],
     targetPosition: isSmall
       ? [-5, -10, -10]
       : isMobile
-      ? [-9, -10, -10]
-      : isTablet
-      ? [-11, -7, -10]
-      : [-13, -13, -10],
+        ? [-9, -10, -10]
+        : isTablet
+          ? [-11, -7, -10]
+          : [-13, -13, -10],
   };
 };
 
 export const workExperiences = [
   {
     id: 1,
-    name: "Framer",
-    pos: "Lead Web Developer",
-    duration: "2022 - Present",
+    name: "Saaragh Solutions Pvt Ltd.",
+    pos: "Frontend Developer",
+    duration: "Jul 2023 - Present (1 year 3 months)",
     title:
-      "Framer serves as my go-to tool for creating interactive prototypes. I use it to bring designs to  life, allowing stakeholders to experience the user flow and interactions before development.",
+      "Created components, modules like website intro section, pricing, blogs, events, contact forms, dropdown menus etc. Worked for Navan.ai company using Docusaurus, React, CSS3 making scalable, mobile responsive web pages. Performed Site Audit for on-page SEO, off-page SEO optimizing the website, thereby increasing site traffic by 3%",
     icon: "/assets/framer.svg",
     animation: "victory",
   },
   {
     id: 2,
-    name: "Figma",
-    pos: "Web Developer",
-    duration: "2020 - 2022",
+    name: "HReasily (Client Company)",
+    pos: "Frontend Developer",
+    duration: "Jul 2023 - Jul 2024 (1 year)",
     title:
-      "Figma is my collaborative design platform of choice. I utilize it to work seamlessly with team members and clients, facilitating real-time feedback and design iterations. Its cloud-based.",
+      "Worked on code migration rewriting entire code base from Angular1 & 2 to React 16 for YUVO & HReasily companies. Worked on modules like Subsidiary companies, Audit logs, Reports, Group directory, Employee calendar etc",
     icon: "/assets/figma.svg",
     animation: "clapping",
   },
   {
     id: 3,
-    name: "Notion",
-    pos: "Junior Web Developer",
-    duration: "2019 - 2020",
+    name: "Freelancer (Remote)",
+    pos: "React.js, Angular, MEAN, MERN, Next.js Developer ",
+    duration: "Dec 2022 - Jul 2023 (7 months)",
     title:
-      "Notion helps me keep my projects organized. I use it for project management, task tracking, and as a central hub for documentation, ensuring that everything from design notes to.",
+      "Developed full-stack web applications, analyzed, and rendered data using Html5, Css3, JS, Angular, React, Next.js. Designed, recorded, created, curated a 8-hour course content on Next.js, Express.js as an online tutor for IIT Madras",
+    icon: "/assets/notion.svg",
+    animation: "salute",
+  },
+  {
+    id: 4,
+    name: "Photon Interactive Pvt Ltd.",
+    pos: "Node.js Developer",
+    duration: "Sep 2022 - Nov 2023 (3 months)",
+    title:
+      "Hoised data on MongoDB servers, created models, schemas for users & tested the backend API on Postman. Gained knowledge on Node.js, express.js, middleware, Git, deploying container based apps using tools like Docker",
+    icon: "/assets/notion.svg",
+    animation: "salute",
+  },
+  {
+    id: 5,
+    name: "ISYS Technologies",
+    pos: "Software Consultant",
+    duration: "Sep 2018 - Jul 2022 (3 years 11 months)",
+    title:
+      "Created MEAN, MERN stack projects using Angular, React frameworks, authorization & authentication projects. Created repositories, forked, merged, cloned, transferred projects to Github, learnt Git version control commands",
+    icon: "/assets/notion.svg",
+    animation: "salute",
+  },
+  {
+    id: 6,
+    name: "Larsen & Toubro (Client company)",
+    pos: "Angular developer",
+    duration: "May 2022 - Jul 2022 (3 months)",
+    title:
+      "Worked on ASSET MANAGEMENT SYSTEM project movement module to move, transport, repair & buy new assets. Worked on modules like Asset Dispatch, Challan Generation, Receipts & Commissioning",
+    icon: "/assets/notion.svg",
+    animation: "salute",
+  },
+  {
+    id: 7,
+    name: "Energy Tec",
+    pos: "Control Panel Engineer",
+    duration: "Jun 2017 - Sep 2018 (1 year 4 months)",
+    title:
+      "Fitted the electrical components, tested the control panel, with the help of transformer switches & circuit breaker",
+    icon: "/assets/notion.svg",
+    animation: "salute",
+  },
+  {
+    id: 8,
+    name: "Larsen & Toubro",
+    pos: "Student Intern",
+    duration: "Dec 2014 - Jan 2015 (2 months)",
+    title:
+      "Worked on speed testing, designing lighting systems, motor controls used inside merchant & defence ships. Gained additional information about electrical drives, power systems used in commercial & combat ships",
     icon: "/assets/notion.svg",
     animation: "salute",
   },
