@@ -1,7 +1,16 @@
+import Hero from "./sections/Hero";
+import Navbar from "./sections/Navbar";
+import About from "./sections/About.jsx";
+
 function App() {
   return (
     <>
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
+      {" "}
+      <main className="max-w-7xl mx-auto relative">
+        <Navbar />
+        <Hero />
+        <About />
+      </main>
     </>
   );
 }
